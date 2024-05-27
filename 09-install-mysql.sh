@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$(id -u )
+ID=$(id -u)
 
 if [ $ID -ne 0 ]
 then
@@ -16,3 +16,4 @@ then
 else
     echo "Installing MySQL is SUCCESS"
 fi
+    yum install git -y
