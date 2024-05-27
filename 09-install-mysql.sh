@@ -9,3 +9,10 @@ else
     echo "YOU ARE ROOT USER"
 fi
     yum install mysql -y
+
+if [ $? -ne 0 ]
+then 
+    echo "ERROR :: Installing MySQL is FAILED"
+else
+    echo "Installing MySQL is SUCCESS"
+fi
