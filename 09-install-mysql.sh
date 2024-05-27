@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$( sudo )
+ID=$(id -u )
 
 if [ $ID -ne 0 ]
 then
