@@ -14,5 +14,5 @@ echo "All args passed :: $@"
 echo "Script name :: $0"
 
 
-
+echo "status :: $?"
 
